@@ -1,0 +1,42 @@
+
+<h1>b tag </h1>
+<p>
+The <b> tag in HTML is used to define bold text. Unlike the <strong> tag, which also renders text in bold but conveys importance, the <b> tag does not carry any extra emphasis or importance. It is purely a stylistic element for making text bold.
+</p>
+
+
+<h1>i tag </h1>
+<p>
+The i tag in HTML is used to denote text that is set off from the normal text in a document, typically in italics. The meaning or purpose of the i tag has evolved over time, and it now suggests text that is of a different quality or mood rather than simply a stylistic change
+</p>
+
+
+<h1> u tag </h1>
+<p>
+The <u> tag in HTML is used to underline text. Like the <i> tag, the meaning and recommended use of the <u> tag have evolved over time. It is now primarily used to indicate text that should be stylistically different but not necessarily for emphasis. 
+</p>
+
+
+<h1> select tag </h1>
+<p>
+The <select> tag in HTML is used to create a drop-down list. This list allows users to choose one (or sometimes multiple) options from a predefined set. The <select> element is used in forms to collect user input.
+</p>
+
+
+<h1> button tag </h1>
+<p>
+The <button> tag in HTML is used to create a clickable button. This button can be used to submit forms, trigger JavaScript functions, or interact with the user interface in various ways. The <button> element can contain text, images, or other HTML content, making it versatile and customizable.
+</p>
+
+<h1> hr tag </h1>
+<p>
+The <hr> tag in HTML is used to insert a horizontal rule, which is a thematic break in the content, typically represented by a horizontal line. This tag is an empty element, meaning it does not have a closing tag.
+</p>
+
+
+<h1> br tag </h1>
+<p>
+The <br> tag in HTML stands for "break" and is used to insert a line break in the text. It is an empty element (self-closing) and does not require an end tag. The <br> tag is useful for formatting text where you want to separate lines or create spacing without starting a new paragraph
+</p>
+
+ 
