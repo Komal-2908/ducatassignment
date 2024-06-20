@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Recipe Collection Home</title>
+</head>
+<body>
+    <h1>Welcome to Our Recipe Collection</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="desserts.html">Desserts</a></li>
+            <li><a href="main_courses.html">Main Courses</a></li>
+        </ul>
+    </nav>
+    <p>Discover delicious recipes for every occasion!</p>
+</body>
+</html>
