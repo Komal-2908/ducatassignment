@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #4ABDC5;
+    font-family: Arial, sans-serif;
+}
+
+.keyboard {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-gap: 5px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    background-color: #222;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 10px;
+    color: #4ABDC5;
+    text-transform: uppercase;
+}
+
+.key-wide {
+    grid-column: span 2;
+}
+
+.key-space {
+    grid-column: span 6;
+}
+
+.key:last-child {
+    grid-column: span 3;
+}

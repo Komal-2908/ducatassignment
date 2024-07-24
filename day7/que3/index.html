@@ -1,0 +1,153 @@
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .periodic-table {
+            display: grid;
+            grid-template-columns: repeat(18, 50px);
+            grid-gap: 5px;
+        }
+        .element {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #000;
+            box-sizing: border-box;
+        }
+        .H { background-color: red; grid-column: 1; grid-row: 1; }
+        .Si { background-color: green; grid-column: 14; grid-row: 3; }
+        /* Add more elements with appropriate classes and grid positions */
+        .Be { background-color: lightgreen; grid-column: 2; grid-row: 2; }
+        .Mg { background-color: lightcoral; grid-column: 2; grid-row: 3; }
+        .Ca { background-color: lightgreen; grid-column: 2; grid-row: 4; }
+        .Sr { background-color: lightcoral; grid-column: 2; grid-row: 5; }
+        .Ba { background-color: lightgreen; grid-column: 2; grid-row: 6; }
+        .Ra { background-color: lightcoral; grid-column: 2; grid-row: 7; }
+        /* Adding the placeholder for Lanthanides and Actinides */
+        .La { background-color: darkgreen; grid-column: 3; grid-row: 6; }
+        .Am { background-color: darkgreen; grid-column: 3; grid-row: 7; }
+        .No { background-color: darkgreen; grid-column: 18; grid-row: 6 / span 2; }
+    </style>
+</head>
+<body>
+    <h1>THE PERIODIC TABLE OF ELEMENTS</h1>
+    <div class="periodic-table">
+        <div class="element H">H</div>
+        <div class="element Si">Si</div>
+        <div class="element Be">4</div>
+        <div class="element Mg">12</div>
+        <div class="element Ca">20</div>
+        <div class="element Sr">38</div>
+        <div class="element Ba">56</div>
+        <div class="element Ra">88</div>
+        <div class="element La">La</div>
+        <div class="element Am">Am</div>
+        <div class="element No">No</div>
+        <!-- Add other elements here -->
+    </div>
+</body>
+</html>-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .periodic-table {
+            display: grid;
+            grid-template-columns: repeat(18, 50px);
+            grid-gap: 5px;
+        }
+        .element {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #000;
+            box-sizing: border-box;
+        }
+        .H { background-color: red; grid-column: 1; grid-row: 1; }
+        .Si { background-color: lightgreen; grid-column: 14; grid-row: 3; }
+        .Be { background-color: lightgreen; grid-column: 2; grid-row: 2; }
+        .Mg { background-color: lightcoral; grid-column: 2; grid-row: 3; }
+        .Ca { background-color: lightgreen; grid-column: 2; grid-row: 4; }
+        .Sr { background-color: lightcoral; grid-column: 2; grid-row: 5; }
+        .Ba { background-color: lightgreen; grid-column: 2; grid-row: 6; }
+        .Ra { background-color: lightcoral; grid-column: 2; grid-row: 7; }
+        .La { background-color: darkgreen; grid-column: 3; grid-row: 8; }
+        .Am { background-color: darkgreen; grid-column: 4; grid-row: 8; }
+        .No { background-color: darkgreen; grid-column: 5; grid-row: 8; }
+        /* Add elements with different colors */
+        .metal { background-color: blue; }
+        .metalloid { background-color: purple; }
+        .nonmetal { background-color: yellow; }
+        .noble-gas { background-color: gold; }
+        .halogen { background-color: pink; }
+        .transition-metal { background-color: orange; }
+        .alkali-metal { background-color: lightblue; }
+        .alkaline-earth-metal { background-color: lightgreen; }
+        .lanthanide { background-color: darkgreen; }
+        .actinide { background-color: brown; }
+    </style>
+</head>
+<body>
+    <h1>THE PERIODIC TABLE OF ELEMENTS</h1>
+    <div class="periodic-table">
+        <div class="element H">H</div>
+        <div class="element Si">Si</div>
+        <div class="element Be">Be</div>
+        <div class="element Mg">Mg</div>
+        <div class="element Ca">Ca</div>
+        <div class="element Sr">Sr</div>
+        <div class="element Ba">Ba</div>
+        <div class="element Ra">Ra</div>
+        <div class="element La">La</div>
+        <div class="element Am">Am</div>
+        <div class="element No">No</div>
+        <!-- Add more elements here -->
+        <!-- Example for other groups -->
+        <div class="element metal" style="grid-column: 4; grid-row: 4;">Fe</div>
+        <div class="element metalloid" style="grid-column: 13; grid-row: 3;">B</div>
+        <div class="element nonmetal" style="grid-column: 17; grid-row: 2;">O</div>
+        <div class="element noble-gas" style="grid-column: 18; grid-row: 1;">He</div>
+        <div class="element halogen" style="grid-column: 17; grid-row: 3;">F</div>
+        <div class="element transition-metal" style="grid-column: 4; grid-row: 5;">Co</div>
+        <div class="element alkali-metal" style="grid-column: 1; grid-row: 3;">Li</div>
+        <div class="element alkaline-earth-metal" style="grid-column: 2; grid-row: 3;">Mg</div>
+        <div class="element lanthanide" style="grid-column: 4; grid-row: 8;">Ce</div>
+        <div class="element actinide" style="grid-column: 5; grid-row: 8;">Th</div>
+    </div>
+</body>
+</html>
+
+

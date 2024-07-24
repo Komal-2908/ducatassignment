@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header, .content, .footer {
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .header {
+            background-color: #f8b400;
+            text-align: center;
+            font-size: 24px;
+            color: white;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            flex: 1 1 calc(33.333% - 40px); /* 3 cards per row, minus margins */
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 8px 8px 0 0;
+        }
+        .card h3 {
+            margin: 20px 0 10px;
+            font-size: 18px;
+        }
+        .card p {
+            font-size: 14px;
+            color: #333;
+        }
+        .card .price {
+            font-size: 16px;
+            color: #f8b400;
+            margin-top: 10px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+        @media (max-width: 992px) {
+            .card {
+                flex: 1 1 calc(50% - 40px); /* 2 cards per row */
+            }
+        }
+        
+        @media (max-width: 600px) {
+            .card {
+                flex: 1 1 100%; /* 1 card per row */
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        Rooms & Suites
+    </div>
+    <div class="content">
+        <div class="card">
+            <img src="img1.jpg.webp" alt="Single Room">
+            <h3>Single Room</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            <div class="price">$90 / PER NIGHT</div>
+        </div>
+        <div class="card">
+            <img src="img_2.jpg.webp" alt="Family Room">
+            <h3>Family Room</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            <div class="price">$120 / PER NIGHT</div>
+        </div>
+        <div class="card">
+            <img src="img_3.jpg.webp" alt="Presidential Room">
+            <h3>Presidential Room</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            <div class="price">$250 / PER NIGHT</div>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; 2024 Hotel Name
+    </div>
+</body>
+</html>
